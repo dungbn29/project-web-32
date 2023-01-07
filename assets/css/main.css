@@ -1,27 +1,3 @@
-.block-1 {
-    height: 30px;
-    width: 400px;
-    background-color: #000;
-    color: #fff;
-}
-
-.block-2 {
-    height: 30px;
-    width: 400px;
-    background-color: blue;
-    color: #fff;
-}
-
-.inline-1 {
-    height: 30px;
-    width: 400px;
-    background-color: green;
-    color: #fff;
-}
-
-.inline-2 {
-    height: 30px;
-    width: 400px;
-    background-color: red;
-    color: #fff;
+a[href] {
+    color: red;
 }
