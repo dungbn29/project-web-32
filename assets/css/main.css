@@ -5,10 +5,9 @@
 }
 .container {
     width: 1200px;
-    margin: auto; /*Can giua khoi phan tu*/
+    margin: auto;
 }
 /*---- Header./Start ----*/
-
 .top-bar {
     background-color: #0a59cc;
 }
@@ -32,36 +31,51 @@
 
 .topbar-right {
     width: 50%;
-    background-color: green;
-    /* height: 42px; */
 }
 .list-topbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
 }
 .list-topbar li {
-    list-style: none; /* bo dau cham o li*/
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-right: 14px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.list-topbar li img {
+    width: 18px;
+    height: 18px;
+    filter: invert(1);/*dao mau*/
+}
+.list-topbar li a {
+    color: #fff;
+    font-size: 14px;
+    padding-left: 10px;
+    text-decoration: none;
+}
+.list-topbar li a:hover {
+    text-decoration: underline;
+}
 
 .header-main {
     height: 123px;
     background-color: #2579f2;
 }
+.header-main .container {
+    height: 123px;
+    background-color: red;    
+}
+
+
+
+
+
+
+
+
+
+
+
 .header-bottom {
     height: 54px;
     background-color: #fff;
