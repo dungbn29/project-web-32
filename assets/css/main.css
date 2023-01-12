@@ -60,13 +60,18 @@
 .header-main {
     height: 123px;
     background-color: #2579f2;
-}
-.header-main .container {
-    height: 123px;
-    background-color: red;    
+    display: flex;
+    align-items: center;
 }
 
-
+.header-main .header-main-top {
+    background-color: green;
+    height: 70px;
+}
+.header-main .header-main-bottom {
+    background-color: violet;
+    height: 20px;
+}
 
 
 
