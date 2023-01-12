@@ -3,27 +3,34 @@
     padding: 0;
     font-family: 'Roboto', sans-serif;
 }
+
 .container {
     width: 1200px;
     margin: auto;
 }
+
 /*---- Header./Start ----*/
 .top-bar {
     background-color: #0a59cc;
 }
+
 .wrap-topbar {
     display: flex;
     align-items: center;
     height: 42px;
 }
+
 .topbar-left {
     width: 50%;
 }
+
 .topbar-left a {
     color: #fff;
     font-size: 14px;
-    text-decoration: none; /*bo dau gach chan the a*/
+    text-decoration: none;
+    /*bo dau gach chan the a*/
 }
+
 .topbar-left a:hover {
     /* :hover --- di chuot qua phan tu */
     text-decoration: underline;
@@ -32,27 +39,33 @@
 .topbar-right {
     width: 50%;
 }
+
 .list-topbar {
     display: flex;
     justify-content: flex-end;
 }
+
 .list-topbar li {
     list-style: none;
     display: flex;
     align-items: center;
     margin-right: 14px;
 }
+
 .list-topbar li img {
     width: 18px;
     height: 18px;
-    filter: invert(1);/*dao mau*/
+    filter: invert(1);
+    /*dao mau*/
 }
+
 .list-topbar li a {
     color: #fff;
     font-size: 14px;
     padding-left: 10px;
     text-decoration: none;
 }
+
 .list-topbar li a:hover {
     text-decoration: underline;
 }
@@ -60,13 +73,19 @@
 .header-main {
     height: 123px;
     background-color: #2579f2;
-}
-.header-main .container {
-    height: 123px;
-    background-color: red;    
+    display: flex;
+    align-items: center;
 }
 
+.header-main .header-main-top {
+    background-color: green;
+    height: 70px;
+}
 
+.header-main .header-main-bottom {
+    background-color: violet;
+    height: 20px;
+}
 
 
 
